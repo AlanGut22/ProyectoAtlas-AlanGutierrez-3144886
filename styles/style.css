@@ -1,0 +1,356 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Encabezado */
+
+header {
+	background-image: url(../assets/images/banner-bk.jpg);
+	height: 90vh;
+	background-size: cover;
+	color: #ffffff;
+	padding: 4rem 8rem;
+}
+
+header .texto {
+	margin: 4rem 0;
+}
+
+header .texto h1 {
+	font-size: 5rem;
+}
+
+header .texto p {
+	font-size: 1.4rem;
+	width: 50%;
+	margin: 4rem 0;
+}
+
+header .texto button {
+	border: none;
+	border-radius: 2rem;
+	font-size: 1rem;
+	font-weight: 600;
+	padding: 1rem 2rem;
+	background-color: #00FFAD;
+	color: #192440;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav img {
+	width: 7%;
+}
+
+nav a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 1.2rem;
+}
+
+/* Sección 1 */
+
+.seccion-1 {
+	margin: 8rem;
+	text-align: center;
+	color: #292B2C;
+}
+
+.seccion-1 h2 {
+	font-size: 2.8rem;
+}
+
+.seccion-1 .tarjetas {
+	margin: 4rem;
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 14rem;
+}
+
+.seccion-1 .tarjetas .tarjeta {
+	width: 22%;
+}
+
+.seccion-1 .tarjetas .parrafo {
+	line-height: 1.6;
+}
+
+.seccion-1 .tarjetas .titulo {
+	font-size: 1.5rem;
+	margin: 0.7rem 0;
+	font-weight: bold;
+}
+
+/* Sección 2 */
+
+.seccion-2 {
+	margin: 8rem 7rem 7rem;
+	color: #292B2C;
+	display: flex;
+	justify-content: center;
+	gap: 6rem;
+}
+
+.seccion-2 .parrafo {
+	width: 40%;
+}
+
+.seccion-2 .parrafo h2 {
+	font-size: 2.8rem;
+}
+
+.seccion-2 .parrafo p {
+	line-height: 1.6;
+	margin: 1.5rem 0 3.5rem;
+}
+
+.seccion-2 .parrafo button {
+	border: none;
+	border-radius: 2rem;
+	font-size: 1rem;
+	font-weight: 600;
+	padding: 1rem 2rem;
+	background-color: #192440;
+	color: white;
+}
+
+.seccion-2 img {
+	width: 30%;
+	z-index: 1;
+}
+
+.sesgoabajo {
+	position: absolute;
+	border-width: 0 0 45vh 99vw;
+	border-style: solid;
+	border-color: transparent transparent #00FFAD transparent;
+}
+
+/* Sección 3 */
+
+.seccion-3 {
+	background-color: #00FFAD;
+	padding: 7rem;
+	color: #292B2C;
+	display: flex;
+	justify-content: center;
+	gap: 6rem;
+}
+
+
+.seccion-3 .parrafo {
+	width: 30%;
+}
+
+.seccion-3 .parrafo h2 {
+	font-size: 2.8rem;
+}
+
+.seccion-3 .parrafo p {
+	line-height: 1.6;
+	margin: 1.5rem 0 3.5rem;
+}
+
+.seccion-3 .parrafo button {
+	border: none;
+	border-radius: 2rem;
+	font-size: 1rem;
+	font-weight: 600;
+	padding: 1rem 2rem;
+	background-color: #192440;
+	color: white;
+}
+
+.seccion-3 img {
+	width: 30%;
+}
+
+/* Sección 4 */
+
+.seccion-4 {
+	margin: 8rem;
+	text-align: center;
+	color: #292B2C;
+}
+
+.seccion-4 h2 {
+	font-size: 2.8rem;
+}
+
+.seccion-4 .tarjetas {
+	margin: 5rem;
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 14rem;
+}
+
+.seccion-4 .tarjetas .tarjeta {
+	width: 27%;
+	padding: 3rem;
+}
+
+.seccion-4 .tarjetas .tarjeta-especial {
+	color: #ffffff;
+	background-color: #192440;
+	border-radius: 0.3rem;
+}
+
+.seccion-4 .tarjetas h3 {
+	margin-bottom: 2rem;
+	font-size: 1.5rem;
+}
+
+.seccion-4 .tarjetas p {
+	font-size: 6rem;
+	font-weight: bold;
+	margin-bottom: 2rem;
+}
+
+.seccion-4 .tarjetas sub {
+	font-size: 1rem;
+}
+
+.seccion-4 ul {
+	list-style: none;
+	line-height: 2.2;
+	margin-bottom: 2rem;
+}
+
+.seccion-4 .tarjetas button {
+	border: 2px solid #192440;
+	border-radius: 2rem;
+	font-size: 1rem;
+	font-weight: 600;
+	padding: 1rem 2rem;
+	background-color: white;
+	color: #192440;
+}
+
+.seccion-4 .tarjetas .tarjeta-especial button {
+	border: none;
+	background-color: #00FFAD;
+}
+
+/* Sección 5 */
+
+.seccion-5 {
+	padding: 5rem;
+	background-color: #ECEEEF;
+	display: flex;
+	justify-content: center;
+	gap: 8rem;
+}
+
+/* Footer */
+
+footer {
+	margin-bottom: 0.5rem;
+}
+
+footer .contacto {
+	background-image: url(../assets/images/contact-bk.jpg);
+	height: 75vh;
+	background-size: cover;
+	color: #ffffff;
+	padding: 4rem 8rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer .texto {
+	width: 50%;
+}
+
+.contacto h4 {
+	font-size: 3.5rem;
+}
+
+.contacto p {
+	margin: 2rem 0;
+	width: 50%;
+	line-height: 1.6;
+}
+
+.contacto ul {
+	line-height: 2.2;
+	list-style: none;
+}
+
+form .dos-campos {
+	display: flex;
+	gap: 1rem;
+}
+
+.dos-campos .campo {
+	display: flex;
+	flex-direction: column;
+}
+
+.campo-completo {
+	margin-top: 1.5rem;
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	color: #00FFAD;
+	margin-bottom: 0.5rem;
+}
+
+input,
+textarea {
+	padding: 0.6rem 2rem;
+	border: 1px solid #00FFAD;
+	background-color: transparent;
+	color: #ffffff;
+	border-radius: 0.3rem;
+	font-size: 1rem;
+}
+
+form button {
+	width: 100%;
+	margin-top: 1.5rem;
+	padding: 0.75rem 1.5rem;
+	border: none;
+	border-radius: 2rem;
+	background-color: #00FFAD;
+	color: #192440;
+	font-size: 1rem;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.info {
+	padding: 3rem 6rem;
+	background-color: #192440;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.info p {
+	color: #ffffff;
+}
+
+.iconos i {
+	width: 2.5rem;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	text-align: center;
+	margin-right: 1rem;
+	background-color: #f0f0f0;
+	color: #192440;
+	border-radius: 50%;
+	font-size: 1.2rem;
+}
