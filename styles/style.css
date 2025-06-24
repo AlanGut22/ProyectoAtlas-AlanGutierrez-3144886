@@ -94,11 +94,12 @@ nav a {
 /* Sección 2 */
 
 .seccion-2 {
-	margin: 8rem 7rem 7rem;
 	color: #292B2C;
 	display: flex;
 	justify-content: center;
+	padding: 8rem 7rem;
 	gap: 6rem;
+	background: linear-gradient(170deg, white 55%, #00FFAD 50%);
 }
 
 .seccion-2 .parrafo {
@@ -126,14 +127,6 @@ nav a {
 
 .seccion-2 img {
 	width: 30%;
-	z-index: 1;
-}
-
-.sesgoabajo {
-	position: absolute;
-	border-width: 0 0 45vh 99vw;
-	border-style: solid;
-	border-color: transparent transparent #00FFAD transparent;
 }
 
 /* Sección 3 */
@@ -252,10 +245,6 @@ nav a {
 }
 
 /* Footer */
-
-footer {
-	margin-bottom: 0.5rem;
-}
 
 footer .contacto {
 	background-image: url(../assets/images/contact-bk.jpg);
