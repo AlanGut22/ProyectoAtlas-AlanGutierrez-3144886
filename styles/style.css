@@ -98,7 +98,7 @@ nav a {
 	display: flex;
 	justify-content: center;
 	padding: 8rem 7rem;
-	gap: 6rem;
+	gap: 4rem;
 	background: linear-gradient(170deg, white 55%, #00FFAD 50%);
 }
 
@@ -137,7 +137,7 @@ nav a {
 	color: #292B2C;
 	display: flex;
 	justify-content: center;
-	gap: 6rem;
+	gap: 10rem;
 }
 
 
