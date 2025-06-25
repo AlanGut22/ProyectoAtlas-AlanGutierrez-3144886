@@ -28,8 +28,9 @@ header .texto h1 {
 
 header .texto p {
 	font-size: 1.4rem;
-	width: 50%;
+	width: 55%;
 	margin: 4rem 0;
+	line-height: 1.6;
 }
 
 header .texto button {
@@ -237,7 +238,7 @@ nav a {
 /* Sección 5 */
 
 .seccion-5 {
-	padding: 5rem;
+	padding: 4rem;
 	background-color: #ECEEEF;
 	display: flex;
 	justify-content: center;
