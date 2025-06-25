@@ -98,21 +98,22 @@ nav a {
 	color: #292B2C;
 	display: flex;
 	justify-content: center;
-	padding: 8rem 7rem;
-	gap: 4rem;
+	padding-bottom: 8rem;
+	gap: 1rem;
 	background: linear-gradient(170deg, white 55%, #00FFAD 50%);
 }
 
 .seccion-2 .parrafo {
-	width: 40%;
+	width: 35%;
 }
 
 .seccion-2 .parrafo h2 {
-	font-size: 2.8rem;
+	font-size: 3rem;
 }
 
 .seccion-2 .parrafo p {
 	line-height: 1.6;
+	font-size: 1.1rem;
 	margin: 1.5rem 0 3.5rem;
 }
 
