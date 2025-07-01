@@ -100,7 +100,7 @@ nav a {
 	justify-content: center;
 	padding-bottom: 8rem;
 	gap: 1rem;
-	background: linear-gradient(170deg, white 55%, #00FFAD 50%);
+	background: linear-gradient(170deg, white 45%, #00FFAD 45%);
 }
 
 .seccion-2 .parrafo {
@@ -135,16 +135,16 @@ nav a {
 
 .seccion-3 {
 	background-color: #00FFAD;
-	padding: 7rem;
+	padding: 5rem;
 	color: #292B2C;
 	display: flex;
 	justify-content: center;
-	gap: 10rem;
+	gap: 6rem;
 }
 
 
 .seccion-3 .parrafo {
-	width: 33%;
+	width: 32%;
 }
 
 .seccion-3 .parrafo h2 {
