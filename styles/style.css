@@ -15,11 +15,11 @@ header {
 	height: 90vh;
 	background-size: cover;
 	color: #ffffff;
-	padding: 4rem 8rem;
+	padding: 5rem 9rem;
 }
 
 header .texto {
-	margin: 4rem 0;
+	margin-top: 4rem;
 }
 
 header .texto h1 {
@@ -142,7 +142,6 @@ nav a {
 	gap: 6rem;
 }
 
-
 .seccion-3 .parrafo {
 	width: 32%;
 }
@@ -243,7 +242,7 @@ nav a {
 	background-color: #ECEEEF;
 	display: flex;
 	justify-content: center;
-	gap: 8rem;
+	gap: 9rem;
 }
 
 /* Footer */
