@@ -18,6 +18,22 @@ header {
 	padding: 5rem 9rem;
 }
 
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav img {
+	width: 7%;
+}
+
+nav a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 1.2rem;
+}
+
 header .texto {
 	margin-top: 4rem;
 }
@@ -41,22 +57,6 @@ header .texto button {
 	padding: 1rem 2rem;
 	background-color: #00FFAD;
 	color: #192440;
-}
-
-nav {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-nav img {
-	width: 7%;
-}
-
-nav a {
-	text-decoration: none;
-	color: #ffffff;
-	font-size: 1.2rem;
 }
 
 /* Sección 1 */
