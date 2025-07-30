@@ -6,6 +6,7 @@
 
 body {
 	font-family: Arial, Helvetica, sans-serif;
+	width: 100%;
 }
 
 /* Encabezado */
@@ -127,8 +128,16 @@ header .texto button {
 	color: white;
 }
 
-.seccion-2 img {
+.seccion-2 .img {
 	width: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.seccion-2 img {
+	width: 100%;
+	height: auto;
 }
 
 /* Sección 3 */
@@ -166,8 +175,16 @@ header .texto button {
 	color: white;
 }
 
-.seccion-3 img {
+.seccion-3 .img {
 	width: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.seccion-3 img {
+	width: 100%;
+	height: auto;
 }
 
 /* Sección 4 */
@@ -183,13 +200,13 @@ header .texto button {
 }
 
 .seccion-4 .tarjetas {
-	margin: 5rem;
+	margin: 5rem 0;
 	display: flex;
 	justify-content: space-evenly;
 }
 
 .seccion-4 .tarjetas .tarjeta {
-	width: 27%;
+	width: 25%;
 	padding: 3rem;
 }
 
@@ -238,11 +255,10 @@ header .texto button {
 /* Sección 5 */
 
 .seccion-5 {
-	padding: 4rem;
+	padding: 3rem;
 	background-color: #ECEEEF;
 	display: flex;
-	justify-content: center;
-	gap: 9rem;
+	justify-content: space-evenly;
 }
 
 /* Footer */
@@ -306,6 +322,7 @@ textarea {
 	color: #ffffff;
 	border-radius: 0.3rem;
 	font-size: 1rem;
+	width: 100%;
 }
 
 form button {
@@ -343,4 +360,126 @@ form button {
 	color: #192440;
 	border-radius: 50%;
 	font-size: 1.2rem;
+}
+
+/* Responsive */
+@media (max-width: 1279px) {
+	header {
+		height: auto;
+		padding: 5rem;
+		nav img {
+			width: 10%;
+		}
+
+		.texto {
+			margin-top: 2rem;
+		}
+
+		.texto h1 {
+			font-size: 3rem;
+		}
+
+		.texto p {
+			font-size: 1rem;
+			margin: 3rem 0;
+			width: 70%;
+		}
+	}
+
+	.seccion-1 {
+		margin: 7rem;
+		h2 {
+			font-size: 2.5rem;
+		}
+
+		.tarjetas {
+			margin: 4rem 0;
+
+			.tarjeta {
+				width: 70%;
+			}
+		}
+	}
+
+	.seccion-2 {
+		padding-bottom: 3rem;
+		background: linear-gradient(170deg, white 60%, #00FFAD 45%);
+		.parrafo {
+			width: 40%;
+
+			h2 {
+				font-size: 2.6rem;
+			}
+
+			p {
+				font-size: 1rem;
+				margin-bottom: 2.8rem;
+			}
+		}
+
+		.img {
+			width: 40%;
+		}
+	}
+
+	.seccion-3 {
+		gap: 3rem;
+
+		.img {
+			width: 45%;
+		}
+
+		.parrafo {
+			width: 50%;
+
+			h2 {
+				font-size: 2.6rem;
+			}
+
+			p {
+				font-size: 1rem;
+				margin-bottom: 2.8rem;
+			}
+		}
+	}
+
+	.seccion-4 {
+
+		margin: 6rem;
+
+		.tarjetas .tarjeta {
+			width: 30%;
+			padding: 2rem;
+
+			h3 {
+				font-size: 1.3rem;
+			}
+
+			p {
+				font-size: 4rem;
+			}
+		}
+	}
+
+	footer {
+		.contacto {
+			padding: 5rem;
+			justify-content: space-between;
+			h4{
+				font-size: 2.7rem;
+			}
+		}
+
+		.texto {
+			width: 45%;
+
+			p {
+				width: 100%;
+			}
+		}
+
+		form {
+			width: 45%;
+		}
+	}
 }
